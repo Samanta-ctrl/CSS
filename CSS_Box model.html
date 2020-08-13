@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<style type="text/css">
+		#box
+		{
+			background-color: cyan;
+			width: 70px;
+			/*padding-top: 20px; 
+			padding-right: 2px;
+			padding-left: 20px;
+			padding-bottom: 20px;  */
+
+			padding:20px,40px,80px,120px; /* top,right,bottom,left */
+
+			/*
+			border-style: solid;
+			border-color: red; 
+			border-width: 10px; 
+			border-radius: 20px;
+			*/
+			border: 3px solid blue;
+			border-radius: 20px 0px 20px 0px;
+			border-left: 3px dashed green; /* ridge and groove */
+			border-bottom: 3px dotted red;
+			border-right: 3px inset black;
+			border-top: 10px outset blue;
+			
+			
+			margin-right: 20px;
+			margin-bottom: 40px;
+			margin-left: 50px;
+			margin-top: 70px;
+			
+			/* outline: 3px dotted purple;  */
+
+			box-shadow: 0px 0px 10px white; /* x-axis, y-axis, blurness, shadow color */
+
+		}
+		body
+		{
+			background-color: black;
+		}
+		/*input[type="text"]:focus
+		{
+			outline: 3px dashed red;
+			border:none;
+
+		}   */
+	</style>
+</head>
+<body>
+	<div id="box">
+		Jspiders
+	</div>
+	<div>
+		<label>Username</label>
+		<input type="text" name="f1">
+	</div>
+</body>
+</html>
