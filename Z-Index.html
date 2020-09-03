@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z Index</title>
+	<style type="text/css">
+		div
+		{
+				width: 200px;
+				padding:20px;
+				text-align: center;
+				border-radius: 20px;
+				border: 1px dotted black;
+				color: white; 
+		}
+		#jspiders
+		{
+			background: linear-gradient(45deg,black,violet,blue);
+			position: relative;
+			top: 20px;
+			left: 100px;
+			z-index: 3;
+		}
+		#qspiders
+		{
+			background: linear-gradient(45deg,yellow,pink,blue);
+			position: relative;
+			top: 20px;
+			left: 200px;
+			z-index: 2;
+		}
+		#pyspiders
+		{
+			background: linear-gradient(45deg,red,white,cyan);
+			position: relative;
+			top: 20px;
+			left: 300px;
+			z-index: 1;
+		}
+	</style>
+</head>
+<body>
+	<div id="jspiders">
+		Jspiders
+	</div>
+	<div id="qspiders">
+		Qspiders
+	</div>
+	<div id="pyspiders">
+		Pyspiders
+	</div>
+</body>
+</html>

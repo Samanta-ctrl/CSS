@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Display Property</title>
+	<style type="text/css">
+		a
+		{
+			text-decoration: none;
+			display: block; /* converted inline level to block level. (elements are converted into the inline) */
+		}	
+		a:hover
+		{
+			background:linear-gradient(45deg,violet,yellow,black);
+			color: white; 
+			border-radius: 20px;
+			/*display: inline; /* for anchor tag by default display is in inline level. 
+			(in Inline level we cant chnage width value) */
+			width: 50%;
+			text-align: center;
+		}
+		h1
+		{
+			background: linear-gradient(45deg,yellow,pink,black);
+			color: white;
+			display: inline; /* elements are converted into the inline */
+		}
+		
+		div a
+		{
+			background: linear-gradient(45deg,green,black);
+			color: black;
+			display: inline-block;
+		}
+		div
+		{
+			box-shadow: 0 0 10px black;
+		}  
+	</style>
+</head>
+<body>
+	<a href="#">Jspiders</a>
+	<a href="#">Qspiders</a>
+	<a href="#">Pyspiders</a>
+	<a href="#">UIspiders</a>
+<div>
+	<h1>Jspiders</h1>
+	<h1>Qspiders</h1>
+	<h1>Pyspiders</h1>
+	<h1>UIspiders</h1>
+
+</div>
+</body>
+</html>
